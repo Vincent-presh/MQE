@@ -1,0 +1,161 @@
+
+button {
+    border: solid 1px #dbdbdb;
+    border-radius: 5px;
+    height: 35px;
+    width: 140px;
+    background-color: #0A091C;
+    border-color: #4267b2;text-align: center; color:white;
+    cursor: pointer;
+    margin-left: 28%;
+    align-self: center;
+   transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+button:hover{
+  background-color: rgb(13, 44, 78);
+}
+
+
+table tr{
+	width: 100%;
+}
+
+#tower{
+  width: 100%;
+  height: 24px;
+  z-index: 2;
+  background:transparent;
+  color: white;
+font-size: .89rem;
+text-align:center;
+padding-top: 4px;
+cursor: pointer;
+}
+
+ tr#header td img{
+ 	height: 90px;
+ 	width: 90px;
+ 	align-content: center;
+ 	margin-left: 36%;
+align-self: center;
+ }
+ 
+ tr.form{
+  	padding: 0;
+  	width: 100%;
+  	height: 50px;
+ }
+  tr.form.response{
+    height: 40px !important;
+  }
+ tr#header{
+ 		padding: 0;
+  	width: 100%;
+  	height: 110px;
+ }
+
+  tr.send{
+  	padding: 0;
+  	width: 100%;
+  	height: 50px;
+ }
+
+ tr.send td a{
+ 	width: 33%;
+ 
+ }
+
+  tr.form td{
+ 	padding: 5px 20px;
+ 	width: 100%;
+ 	max-height: 40px;
+ 	background: inherit;
+ 	border-radius: 4px;
+  }
+
+tr.form.submit td{
+  background: transparent;
+}
+
+  tr.power{
+  	font-family: "InFormal Style Thin";
+    font-weight: bold;
+  }
+
+  input{
+  	padding: 5px 10px;
+  	width: 100%;
+  	max-width:270px !important;
+  	box-shadow: none;
+  	height: 30px;
+    outline: none;
+    float: right;
+    border: none;
+    background: transparent;
+  }
+
+  .bg-night input{
+    color: white;
+  }
+
+  .icon{
+  	margin-top: 5px;
+  	    max-width: 0px;
+  	    float: left;
+  }
+
+  .fa-user:before {
+   height: 0px;
+	width: 0px;
+    content: url("http://localhost/Mark-E/img/ic_action_mail.png");
+}
+.fa-key:before {
+	height: 0px;
+	width: 0px;
+    content: url("http://localhost/Mark-E/img/pass.png");
+}
+.fa-firn:before{
+		height: 0px;
+	width: 0px;
+    content: url("http://localhost/Mark-E/img/ic_action_name.png");
+}
+
+.fa-secn:before{
+		height: 0px;
+	width: 0px;
+    content: url("http://localhost/Mark-E/img/ic_action_about.png");
+}
+
+  tr.footer{
+  	padding: 5px 10px;
+  		height: 30px;
+  }
+
+  tr.footer td{
+  	text-align: center;
+  	font-size: 13px;
+  }
+
+
+  @media screen and (max-width : 565px) {
+    tr.form td{
+        padding: 5px 10px;
+    }
+   
+  }
+  @media screen and (max-width : 425px) {
+    input {
+     max-width: 230px !important;
+     font-size: 12px;
+   }
+  }
+  @media screen and (max-width : 325px) {
+   input {
+
+    max-width: 210px !important;
+  }
+   button{
+      margin-left: 18%;
+      width: 180px;
+    }
+}

@@ -1,0 +1,165 @@
+.subject{
+	width: 90%;
+	margin-left: 5%;
+	height: calc(100% - 48px);
+	background: inherit;
+	border-radius: 50%;
+	padding-top: 30px;
+}
+.under{
+		border-radius: 7px;
+		height: 80px;
+		padding: 7px 6%;
+		width: 100%;
+		
+	}
+	.under .imager{
+		height: 70%;
+		width: auto;
+		max-width: 50px;
+		min-width: 50px;
+		border-radius: 50%;
+			float: left;
+	}
+	.righyww{
+		width: calc( 100% - 50px);
+		float: right;
+	}
+	.chooser{
+		position: absolute;
+		right: 12px;
+		top: 30px;
+	}
+	.app-choser{
+		border: 1px solid #0C5D91;
+		width: 13px;
+		height: 13px;
+	}
+	.imager img{
+		border-radius: 50%;
+		height: 100%;
+	}
+
+.intent, .actions{
+	width: 45px;
+	height: 55px;
+border: 1px solid #c4c3c3;
+	border-radius: 10px;
+}
+.boe{
+		border-radius: 6px;
+	}
+	.stat{
+		border-radius: 50%;
+		cursor: pointer;
+		border: 1px dashed #c4c3c3;
+	}
+	.bg-white.stat:hover{
+		border: 2px dashed #0C5D91;
+		box-shadow: 0px 1px 40px 1px rgba(0,0,0,0.1);
+	}
+	.bg-night.stat:hover{
+		border: 2px dashed white;
+		box-shadow: 0px 1px 40px 1px rgba(255,255,255,0.1);
+	}
+	.bg-white.stat:hover hr{
+border-top: 1px solid #0C5D91;
+	}
+	.bg-night.stat:hover hr{
+border-top: 1px solid white;
+	}
+	.firleft{
+		margin-left:35%;
+	}
+	.col-sm-4 .stat{
+		height: 50%;
+		width: 50%;
+		min-width: 187px;
+	}
+	.col-sm-4 .stat.mid{
+		height: 85%;
+		width: 50%;
+		min-width: 320px;
+	}
+	.firight{
+		margin-top:190px;
+
+	}
+	.bg-white .icon-ad{
+    background-size: 32px;
+    opacity: .3;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 1px 0px 0px #f1f1f1;
+	}
+	.bg-night .icon-ad{
+		background: #2f3949;
+		background-size: 32px;
+		opacity: .3;
+		background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 1px 0px 0px #36445d;
+    border: none;
+	}
+	.icon-ad:hover{
+		opacity: 1;
+	}
+	.icon-ad.add{
+		background-image: url("http://localhost/Mark-E/admin/img/icons8-add-80.png") !important;
+	}
+	.icon-ad.settings{
+		background-image: url("http://localhost/Mark-E/admin/img/if_Streamline-75_185095.png") !important;
+	}
+	.icon-ad.delete{
+		background-image: url("http://localhost/Mark-E/admin/img/if_basket_1814090.png") !important;
+	}
+	.icon-ad.group{
+		background-image: url("http://localhost/Mark-E/admin/img/if_group_46804.png") !important;
+	}
+	.icon-ad.search{
+		background-image: url("http://localhost/Mark-E/admin/img/if_search_173095.png") !important;
+	}
+`
+	
+
+
+	@media screen and (max-width : 909px) {
+.col-sm-4 .stat.mid{
+		height: 74%;
+		width: 50%;
+		min-width: 250px;
+	
+	}
+
+	}
+@media screen and (max-width : 575px) {
+	.col-sm-4 .stat{
+		height: 70%;
+		margin-left: 26%;
+		min-width: 187px;
+		min-height: 215px;
+
+	}
+	.col-sm-4 .stat.mid{
+		min-height: 300px;
+		margin-left: 17% !important;
+		height: 74%;
+		min-width: 70%;
+
+	}
+	.right{
+		padding-bottom: 80px;
+	}
+	.firight{
+		margin-top:50px;
+
+	}
+}
+@media screen and (max-width : 375px) {
+		.col-sm-4 .stat.mid{
+		min-height: 300px;
+		margin-left: 14% !important;
+		height: 74%;
+		min-width: 84%;
+	}
+}

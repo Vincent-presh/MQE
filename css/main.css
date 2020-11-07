@@ -1,0 +1,215 @@
+
+body{
+    font-family: Helvetica Neue, Helvetica, Arial;
+    color: #555;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+  }
+body.bg-white{
+  background: linear-gradient(to top, #FDFDFD 0%, #FFFFFF 100%) !important;
+}
+body.bg-night{
+  background: #1d232e !important;
+}
+
+a{
+	text-decoration:none;
+	  font-family: 'Varela Round';
+   
+    font-size: 13px;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+img{
+	height: auto;
+}
+
+button{
+  box-shadow: 0.4px 0px 0px 0.6px rgba(0,0,0,0.3);
+    color: #807c80;
+    font-family: 'Varela Round';
+     background: #fafafa;
+    cursor: pointer;
+}
+
+#loadert{
+  margin: 10% 20% 10% 39%;
+  padding-top: 5%;
+  height: 80px;
+  width: 80px;
+  position: relative;
+  border-radius: 50%;
+
+}
+#placefake{ width: 97%;
+height: 75px;
+position: absolute;
+border-radius: 50%;
+  animation: spin 5s linear infinite;
+border: 3px dotted #71D2DA; }
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#logger{
+	width: 400px;
+	min-height: 65%;
+	padding-top: 6%;
+	padding-bottom: 4%;
+	margin-left: 33%;
+}
+
+#logger #mainer{
+  position: relative;
+	height: 100%;
+	width: 100%;
+border-bottom-right-radius: 4px;
+border-bottom-left-radius: 4px;
+}
+#logger #mainer.bg-white{
+  background: rgba(255,255,255,1) !important;
+box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+}
+#logger #mainer.bg-night{
+  background: #0f2a5a !important;
+box-shadow: 0.8px 0.5px 0.8px 0.5px rgba(255,255,255,0.2);
+}
+#inrtuye{
+    position: relative;
+  padding: 0;
+  margin: 0;
+  display: table;
+  width: 100%;
+  border-spacing: 0px;
+height: 100%;
+}
+.wrapper, #caster{
+  width: 33%;
+  min-width: 340px;
+  max-width: 400px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #accbee 0%, #FFFFFF 100%);
+  overflow: hidden;
+}
+#caster{
+  background: none !important;
+}
+#caster .clip{
+width: auto;
+max-width: 100%;
+height: 100%;
+padding: 20px 33%;
+}
+.clip > div{
+  max-width: 107px;
+  width: auto;
+  height: 100%; 
+      border: 2px solid #0C5D91;
+      border-radius: 50%;
+}
+
+div > .dipic{
+  border: 2px solid white;
+      border-radius: 50%;
+      height: 100%;}
+
+.cat-i{
+  position: relative;
+  width: 100%;
+  height: 147px;
+}
+.cat-j{
+  height: 353px;
+}
+.wave {
+  width: 1000px;
+  height: 1025px;
+  position: absolute;
+  top: -25%;
+  left: 50%;
+  margin-left: -500px;
+  margin-top: -500px;
+  border-radius: 35%;
+  background: rgba(255, 255, 255, .75);
+  animation: wave 15s infinite linear;
+}
+
+@keyframes wave {
+  from { transform: rotate(0deg);}
+  from { transform: rotate(360deg);}
+}
+
+#inrtuy{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+	display: block;
+	width: 100%;
+  border-spacing: 0px;
+  height: auto;
+min-height: 100%;
+}
+#inrtuy.bg-white{
+ background: #fdfdfd !important;
+}
+tbody{
+    padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+
+@media screen and (max-width : 900px) {
+#logger{
+	margin-left: 20%;
+	padding-top: 14%;
+}
+}
+
+@media screen and (max-width : 650px) {
+#logger{
+
+	margin-left: 15%;
+}
+}
+
+@media screen and (max-width : 520px) {
+#logger{
+	padding-top: 18.5%;
+  margin-left: 9%;
+}
+}
+@media screen and (max-width : 475px) {
+#logger{
+	margin-left: 2.3%;
+	width: 95%;
+	min-height: 50%;
+	padding-top: 23.5%;
+}
+
+	#logger #mainer{
+		border-radius: 0;
+	}
+}
+
+@media screen and (max-width : 325px) {
+
+   .wrapper, #caster{
+   	top: 60%;
+    min-width: 310px;
+    margin-bottom: 75px;
+   }
+}
